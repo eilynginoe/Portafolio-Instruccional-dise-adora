@@ -1,0 +1,44 @@
+.cabecera {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F9E2D6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logoContainer {
+    display: flex;
+}
+
+.logoContainer img {
+    height: 50px; /* Ajustar el tamaño del logo */
+}
+
+.textoLogo {
+    width: 15vw;
+    margin-top: 10px; /* Ajustar la distancia hacia abajo */
+    margin-left: -10px;
+    display: inline-block; /* Asegura que respeta el flujo del diseño */
+}
+
+
+nav {
+    display: flex;
+    gap: 20px; /* Espaciado entre los enlaces */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF; /* Cambiar color al pasar el mouse */
+}
+

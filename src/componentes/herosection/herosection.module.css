@@ -1,0 +1,92 @@
+.introduccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.textoinit {
+  width: 80vw;
+  margin-bottom: 20px;
+}
+
+.hdos {
+  font-family: 'Roboto Condensed', sans-serif; /* Fuente para h2 */
+  font-size: 12px; /* Tamaño */
+  text-transform: uppercase; /* Opcional: Si quieres que todo esté en mayúsculas */
+  color: #333; /* Color oscuro */
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333; /* Línea debajo del texto */
+  display: inline-block; /* Ajustar el ancho de la línea al texto */
+  padding-bottom: 5px; /* Espacio entre el texto y la línea */
+}
+
+.huno {
+  font-family: 'League Gothic', sans-serif; /* Fuente para h1 */
+  font-size: 32px; /* Tamaño */
+  text-transform: uppercase; /* Convertir a mayúsculas */
+  color: #000; /* Color negro */
+  margin: 15px 0; /* Espaciado entre el h1 y otros elementos */
+  letter-spacing: 1px;
+}
+
+.parrafoinit {
+  font-family: 'Montserrat', sans-serif; /* Fuente para el párrafo */
+  font-size: 18px; /* Tamaño */
+  line-height: 1.6; /* Altura de línea para legibilidad */
+  color: #555; /* Color gris oscuro */
+  margin: 10px 0 20px 0; /* Espaciado superior e inferior */
+  text-align: center; /* Centrado */
+  box-sizing: border-box;
+}
+
+.imagen img {
+  max-width: 100%; /* Imagen responsiva */
+  height: auto;
+  border-radius: 10px; /* Bordes redondeados opcionales */
+  margin: 20px 0;
+}
+
+.contexto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.boton {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 1023px) {
+  .textoinit {
+    width: 35vw;
+    box-sizing: border-box;
+  }
+
+  .parrafoinit{
+    width: 40vw;
+    margin: 10px 0 20px -3rem; /* Espaciado superior e inferior */
+  }
+
+  .contexto {
+    width: 50vw;
+    box-sizing: border-box;
+  }
+
+
+}
+
+
+
+
+
+
+

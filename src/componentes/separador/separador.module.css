@@ -1,0 +1,49 @@
+
+.introduccion {
+    background-color: #353534;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; /* Para alinear los elementos en los extremos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    position: relative; /* Para permitir el desplazamiento del logo hacia abajo */
+    padding: 20px; /* Añadir algo de espacio en los bordes */
+}
+
+.corre, .whatsapp {
+    display: flex;
+    align-items: center; /* Centrar los íconos verticalmente */
+    justify-content: center; /* Centrar los íconos horizontalmente */
+}
+
+.corre {
+    margin-left: 0; /* Asegura que el ícono esté en la parte izquierda */
+}
+
+.whatsapp {
+    margin-right: 0; /* Asegura que el ícono esté en la parte derecha */
+}
+
+.logoherosection {
+    position: absolute; /* Hace que el logo pueda moverse de acuerdo a su posición */
+    top: 50%; /* Desplazar el logo hacia la mitad de su contenedor */
+    left: 50%; /* Centrar el logo horizontalmente */
+    transform: translate(-50%, -50%); /* Ajustar el desplazamiento para centrarlo exactamente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoherosection img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: -60px;
+}
+
+.corre {
+    cursor: pointer;  /* Cambia el cursor a una mano cuando se pasa sobre el ícono de correo */
+  }
+  
+  .whatsapp {
+    cursor: pointer;  /* Cambia el cursor a una mano cuando se pasa sobre el ícono de WhatsApp */
+  }
+  

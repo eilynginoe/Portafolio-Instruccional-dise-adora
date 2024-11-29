@@ -1,0 +1,214 @@
+.introduccion_rediseño {
+    background-color: #F8D6A0;
+    box-sizing: border-box;
+}
+
+.conversacion_inicial_rediseño {
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.conversacion_inicial_rediseño img {
+    width: 25vw;
+}
+
+article {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.opciones_rediseño {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor principal de los botones */
+.centrandoBotones {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* Los botones se ajustan a nuevas filas cuando es necesario */
+    justify-content: space-between;
+    /* Asegura que haya espacio entre las filas */
+    gap: 15px;
+    /* Espacio entre botones */
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+/* Estilo de los botones */
+.ColorButton {
+    display: flex;
+    flex-direction: column;
+    /* La imagen y el texto se apilan en columna */
+    align-items: center;
+    /* Centrar la imagen y el texto */
+    justify-content: center;
+    width: 45%;
+    /* Los botones ocupan el 48% del ancho de la fila */
+    max-width: 200px;
+    /* Asegura que los botones no sean demasiado grandes */
+    height: 150px;
+    /* Ajustamos la altura para tener más espacio para el texto */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    padding: 10px;
+    box-sizing: border-box;
+    /* Para que el padding no afecte al tamaño del contenedor */
+}
+
+
+/* Estilo del texto dentro del botón */
+.ColorButton p {
+    font-size: 12px;
+    /* Reducimos el tamaño de la fuente */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    /* Centramos el texto */
+    margin: 0;
+    /* Eliminamos márgenes por defecto */
+    color: #000;
+    /* Aseguramos que el texto sea oscuro */
+}
+
+/* El último botón centrado en su fila */
+.centrandoBotones .ColorButton:nth-child(5) {
+    margin: 0 auto;
+    /* Centrar el último botón */
+}
+
+.tabla_comparativa {
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 14px;
+    border-collapse: collapse;
+    /* Para que las celdas se junten sin espacio */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Sombra más notoria alrededor de la tabla */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* Borde sutil pero visible */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-sizing: border-box;
+}
+
+.titulo_tabla_comparativa {
+    text-align: center;
+}
+
+
+table td {
+    text-align: left;
+    padding: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+table th {
+    text-align: center;
+    padding: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.rediseño_cierre_conversacional {
+    width: 90vw;
+    padding-top: 4rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.imgflecha {
+
+    margin: 0 auto;
+}
+
+.centrandoflecha {
+    text-align: left;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajustes para pantallas menores a 390px */
+@media (max-width: 390px) {
+    .tabla_comparativa {
+        font-size: 12px;
+        /* Reducir el tamaño general de la tabla */
+    }
+
+    table th,
+    table td {
+        font-size: 12px;
+        /* Reducir el tamaño del texto en celdas */
+        padding: 3px;
+        /* Reducir el espacio dentro de las celdas */
+        word-wrap: break-word;
+        /* Permitir que el texto se ajuste en múltiples líneas */
+    }
+
+    .tabla_comparativa table {
+        width: 100%;
+        /* Asegurarse de que la tabla ocupe todo el ancho disponible */
+    }
+}
+
+/* En pantallas grandes */
+@media (min-width: 1023px) {
+
+    .introduccion_rediseño {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listas ul li {
+        width: 50%;
+        /* Ajustar el ancho del contenido dentro del modal */
+        margin: 0 auto;
+        /* Centrar el modal */
+    }
+
+    .conversacion_inicial_rediseño {
+        width: 50vw;
+        /* Limitar el ancho del contenedor */
+    }
+
+    .centrandoBotones {
+        width: 60%;
+        /* Botones no ocupan todo el espacio */
+    }
+
+    .tabla_comparativa {
+        max-width: 60%;
+        /* Asegura que la tabla no desborde */
+    }
+
+    article {
+        width: 50%;
+        /* Ajustar el ancho de los textos */
+        margin: 0 auto;
+        /* Centrar el texto */
+    }
+
+    .rediseño_cierre_conversacional {
+        max-width: 50%;
+        /* Limitar el ancho */
+        margin: 0 auto;
+        /* Centrar */
+    }
+}

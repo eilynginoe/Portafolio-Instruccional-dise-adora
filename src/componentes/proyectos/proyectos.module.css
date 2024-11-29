@@ -1,0 +1,166 @@
+/* proyectos.module.css */
+
+.introduccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar todos los elementos dentro de la sección */
+    text-align: left; /* Alinear texto a la izquierda */
+    padding: 2rem 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar las imágenes una debajo de la otra */
+    margin-top: 2rem;
+    }
+
+.presentacion img {
+    margin: -5px 0; /* Menor espaciado entre las imágenes */
+    width: 80%; /* Reducir el tamaño de las imágenes para pantallas pequeñas */
+    max-width: 400px; /* Limitar el tamaño máximo de la imagen */
+}
+
+.conversacioninicial {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 15px; /* Espacio reducido entre los párrafos */
+}
+
+.flechaInicio {
+    display: block;
+    margin: 10px auto; /* Centrar la flecha horizontalmente */
+    width: 25vw;
+    height: auto;
+}
+
+.contexto_proyet {
+    margin-top: 20px;
+}
+
+.titulo_proyet {
+    font-size: 24px; /* Tamaño de título */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center; /* Centrar los botones */
+    gap: 20px; /* Espacio entre los botones */
+    margin-bottom: 20px;
+    width: 100%; /* Asegura que los botones estén al 100% del ancho disponible */
+}
+
+.botones .button {
+    display: flex;
+    flex-direction: column; /* Alinear imagen y texto en una columna */
+    align-items: center; /* Centrar la imagen y el texto */
+    justify-content: center; /* Asegurar que la imagen y el texto estén centrados */
+    width: 30%; /* Los botones ocuparán un 30% del ancho */
+    max-width: 150px; /* Máximo tamaño de los botones */
+    margin: 5px; /* Espaciado entre los botones */
+}
+
+.botones .button img {
+    width: 50px; /* Reducir tamaño de la imagen en los botones */
+    height: auto;
+    margin-top: 20px;
+}
+
+.botones .button p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center; /* Asegura que el texto esté centrado debajo de la imagen */
+}
+
+.tabla {
+    width: 95%;
+    border: 1px solid transparent; /* Borde inicial invisible */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.tabla p {
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.proyecto {
+    display: none; /* Por defecto ocultamos todos los proyectos */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.proyectoVisible {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.proyectoOculto {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.proyecto:hover {
+    border: 2px solid #ccc; /* Borde que aparece cuando se pasa el mouse sobre cada proyecto */
+    padding: 10px;
+}
+
+.boton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.llamado_accion_proyet {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.boton img {
+    display: block;
+    margin: 20px auto; /* Centrar la imagen */
+    width: 35vw;
+    height: auto;
+}
+
+
+@media (min-width: 1023px) {
+
+    .llamado_accion_proyet{
+        width: 45vw;
+    }
+
+    .boton img{
+        width: 20vw;
+    }
+
+    /*.conversacioninicial {
+      width: 35vw;
+    }
+
+    .flechaInicio{
+        width: 15vw;
+    }
+
+    .tabla {
+        width: 75vw;
+        margin: 0 auto;
+    }
+  
+    .titulo_proyet {
+      text-align: center;
+    }*/
+  
+  
+  }
+

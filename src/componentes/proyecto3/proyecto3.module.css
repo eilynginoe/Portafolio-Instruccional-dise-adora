@@ -1,0 +1,43 @@
+.introproyect3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introproyect3 img{
+    width: 50vw;
+    height: auto;
+}
+
+.fase1,
+.fase2,
+.fase3,
+.fase4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+@media (min-width: 1023px) {
+    .introproyect3 img {
+      width: 30vw;
+    }
+
+    .introproyect3{
+        text-align: center;
+      }
+  
+    .titulo_proyet {
+      text-align: center;
+    }
+
+    .listaProyecto{
+        width: 60vw;
+    }
+
+    .parrafoproyect3{
+        width: 60vw;
+    }
+  
+  
+  }

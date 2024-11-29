@@ -1,0 +1,52 @@
+/* footer.module.css */
+.rodapie {
+    color: white;
+    background-color: #353534;
+    /* Fondo del pie de página */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    /* Espaciado interno */
+    width: 100%;
+    /* Asegura que el footer ocupe todo el ancho */
+    height: auto;
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte al tamaño total */
+}
+
+
+.logofootertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes img {
+    margin: 20px;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    /* Otros estilos para la sección de redes */
+}
+
+.icono {
+    cursor: pointer;
+    /* Cambia el cursor a mano cuando el usuario pasa el mouse sobre el ícono */
+    transition: transform 0.2s ease-in-out;
+}
+
+.icono:hover {
+    transform: scale(1.1);
+    /* Añade un pequeño efecto de escala cuando el usuario pasa el ratón sobre el ícono */
+}
+
+.copyright {
+    text-align: center;
+    /* Otros estilos para el copyright */
+}

@@ -1,0 +1,189 @@
+/* Estilo base para las tarjetas */
+.card {
+  position: relative; /* Necesario para que la imagen del candado se posicione correctamente */
+  flex: 0 0 100%; /* Muestra solo una tarjeta a la vez */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 8px; /* Espaciado entre las tarjetas */
+  box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+/* Imagen dentro de las tarjetas */
+.cardImageSmall {
+  width: 8vw; /* Tamaño de la imagen en relación con el ancho de la ventana */
+  height: 8vw; /* Mantener proporción cuadrada */
+  border-radius: 50%; /* Convertir la imagen en un círculo */
+  margin: 0 auto 10px auto; /* Centrar horizontalmente y agregar espacio inferior */
+  display: block; /* Asegurar que se comporta como un elemento de bloque para aplicar márgenes */
+}
+
+/* Título de la tarjeta */
+.cardTitle {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+/* Descripción de la tarjeta */
+.cardDescription {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+/* Contenido principal de las tarjetas */
+.cardContent {
+  display: block;
+}
+
+/* Detalles alternativos */
+.cardDetails {
+  margin-top: 16px;
+}
+
+/* Botón dentro de la tarjeta */
+.card button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #F4BC43;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #e0a937;
+}
+
+/* Estilo del contenedor del carrusel */
+.carruselWrapper {
+  position: relative;
+  overflow: hidden; /* Esconde las tarjetas fuera del área visible */
+  width: 100%;
+}
+
+/* Contenedor que aloja las tarjetas */
+.carrusel {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Movimiento suave al desplazarse */
+  width: 100%;
+}
+
+/* Estilo para las tarjetas bloqueadas */
+.blockedCard {
+  position: relative; /* Necesario para superponer el candado */
+  pointer-events: none; /* Desactiva interacción */
+  opacity: 0.7; /* Hace la tarjeta más tenue */
+  filter: grayscale(80%); /* Añade un efecto visual de "desactivado" */
+}
+
+/* Imagen del candado */
+.blockedImage {
+  position: absolute;
+  top: 50%; /* Centra verticalmente */
+  left: 50%; /* Centra horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta el centro exacto */
+  width: 50%; /* Tamaño proporcional a la tarjeta */
+  height: auto; /* Mantener proporciones */
+  opacity: 0.8; /* Semitransparente */
+  z-index: 2; /* Colocar por encima del contenido */
+  pointer-events: none; /* Evitar interferencias */
+}
+
+/* Fondo difuminado detrás del candado */
+.blockedCard::before {
+  content: ""; /* Pseudo-elemento para el efecto */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5); /* Fondo semitransparente */
+  backdrop-filter: blur(3px); /* Difumina el contenido detrás */
+  z-index: 1; /* Debajo del candado pero encima del contenido */
+  pointer-events: none;
+}
+
+/* Asegurar tamaño uniforme de las tarjetas */
+.card {
+  flex: 0 0 100%; /* Evitar cambios en tamaño */
+  height: auto; /* Dejar que la altura sea dinámica */
+  box-sizing: border-box; /* Incluir padding y bordes */
+}
+
+.cardImageSmall {
+  width: 8vw; /* Tamaño consistente para imágenes */
+  height: 8vw; /* Proporciones iguales */
+  object-fit: cover; /* Asegurar ajuste dentro del contenedor */
+}
+
+
+/* Título y botón deben estar por encima de la imagen */
+.cardTitle,
+.cardButton {
+  position: relative;
+  z-index: 3; /* Coloca estos elementos por encima de la imagen bloqueada */
+}
+
+/* Contenido de la tarjeta debajo de la imagen */
+.cardContent {
+  position: relative;
+  z-index: 1; /* Asegura que el contenido esté detrás de la imagen bloqueada */
+}
+
+/* Botones de navegación */
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navButton:first-of-type {
+  left: 10px;
+}
+
+.navButton:last-of-type {
+  right: 10px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 50%; /* Muestra 2 tarjetas a la vez */
+  }
+
+  .navButton {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+}
+
+
+  
+  
+  
+  
+  
+  

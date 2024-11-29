@@ -1,0 +1,19 @@
+/* WhatsAppButton.module.css */
+.button {
+    width: 300px;
+    height: 50px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px; /* Corregido: font-size en minúsculas */
+    cursor: pointer;
+    box-shadow: 4px 4px 6px 2px rgba(0, 0, 0, 0.6); /* Sombra según tus datos */
+    transition: box-shadow 0.3s ease, transform 0.5s ease; /* Transición suave al interactuar */
+}
+
+.button:hover {
+    box-shadow: 6px 6px 8px 3px rgba(0, 0, 0, 0.6); /* Sombra más intensa al pasar el mouse */
+    transform: scale(1.1); /* Aumenta el tamaño a 110% */
+}
+  

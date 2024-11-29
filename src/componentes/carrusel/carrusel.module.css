@@ -1,0 +1,73 @@
+/* Contenedor principal del carrusel */
+.carruselWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* Contenedor de las tarjetas */
+.carrusel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Cada tarjeta */
+.cardContainer {
+  flex: 0 0 100%; /* El ancho se ajusta dinámicamente desde el componente */
+  max-width: 100%; /* Evita que exceda el contenedor */
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Botones de navegación */
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 80px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navButton:disabled {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: not-allowed;
+}
+
+.navButton.prevButton {
+  left: 10px;
+}
+
+.navButton.nextButton {
+  right: 10px;
+}
+
+
+@media (min-width: 768px) {
+  .cardContainer {
+    flex: 0 0 50%; /* Muestra 2 tarjetas a la vez en pantallas grandes */
+  }
+
+
+}
+
+
+
+
+  
+  
+
+  

@@ -1,0 +1,227 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "image": "./img/modular.webp",
+            "title": " Narrativa Inmersiva Modular",
+            "description": "Concepto: Desarrollo de historias adaptativas que evolucionan según las decisiones y el progreso del estudiante",
+            "subtitle": "Implementación:",
+            "items": [
+                "Creación de 'puntos de decisión' donde la narrativa se ramifica según el desempeño",
+                "Personajes que crecen junto con el estudiante durante su trayecto de aprendizaje",
+                "Integración de elementos de la vida real del estudiante en la narrativa"
+            ],
+            "alternateText": {
+                "ejemplo": "La Agencia Digital",
+                "escenario": "Escenario: 'La Agencia Digital'",
+                "aplicacionPráctica": [
+                    "Los estudiantes son contratados como ejecutivos junior en una agencia digital",
+                    "Cada módulo presenta un cliente real con desafíos de marketing específicos",
+                    "Las decisiones del estudiante afectan el presupuesto virtual y la satisfacción del cliente"
+                ],
+                "actividadEspecifica": [
+                    "El estudiante recibe un brief inicial de un cliente de e-commerce",
+                    "Según sus decisiones (elección de canales, presupuesto, estrategia), la historia se ramifica:",
+                    [
+                        "Éxito → Consigue más presupuesto y clientes más grandes",
+                        "Desafíos → Recibe mentoría y casos más orientados a fundamentos",
+                        "Los KPIs reales del proyecto determinan el siguiente cliente asignado"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "./img/tension.webp",
+            "title": "Micro-tensión Narrativa",
+            "description": "Técnica: Aplicación de principios de guión cinematográfico al diseño instruccional",
+            "subtitle": "Elementos clave",
+            "items": [
+                "'Ganchos' narrativos al final de cada módulo",
+                "Creación de 'arcos de tensión' que mantienen el interés entre sesiones",
+                "Desarrollo de 'conflictos cognitivos' que impulsan la curiosidad"
+            ],
+            "alternateText": {
+                "ejemplo": "Ejemplo: Curso de Gestión de Proyectos",
+                "escenario": "Escenario: 'La Agencia Digital'",
+                "aplicacionPráctica": [
+                    "Aplicación práctica:",
+                    "Historia de un proyecto tecnológico al borde del fracaso",
+                    "Cada módulo termina con una crisis que requiere resolución"
+                ],
+                "actividadEspecifica": [
+                    "Actividad específica:",
+                    [
+                        "Al final del módulo de 'Gestión de Stakeholders', el estudiante descubre que un stakeholder clave está bloqueando el proyecto",
+                        "La tensión se mantiene hasta la siguiente sesións",
+                        "El inicio del siguiente módulo requiere aplicar lo aprendido para resolver la crisis",
+                        "La resolución exitosa desbloquea nuevas herramientas de gestión"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "image": "./img/llamado.webp",
+            "title": "Economía de la Atención Aplicada",
+            "description": "  Estrategias innovadoras:",
+            "subtitle": "  ",
+            "items": [
+                "Sistema de microrecompensas narrativas cada 7-10 minutos",
+                "Técnica del 'bucle de compromiso variable' - recompensas impredecibles que mantienen el interés",
+                "Pausas estratégicas diseñadas para reforzar la retención y mantener la motivación"
+            ],
+            "alternateText": {
+                "ejemplo": "Ejemplo: Curso de Programación Python",
+                "escenario": "Escenario: 'Hackathon Virtual'",
+                "aplicacionPráctica": [
+                    "Aplicación práctica:",
+                    "Sesiones de código divididas en sprints de 7 minutos",
+                    "Cada 'sprint' resuelve una parte de un proyecto mayor"
+                ],
+                "actividadEspecifica": [
+                    "Actividad específica:",
+                    [
+                        "Sprint 1 (7 min): Escribir una función básica",
+                        "Microrecompensa: Desbloqueo de una pista para el siguiente desafío",
+                        "Sprint 2 (7 min): Integrar la función en un sistema mayor",
+                        "Recompensa sorpresa: Acceso a una herramienta premium de debugging"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "image": "./img/aumento.webp",
+            "title": "Guías de Experiencia Aumentada",
+            "description": "Concepto: Documentos vivos que evolucionan con el aprendizaje",
+            "subtitle": "Características:",
+            "items": [
+                "Secciones que se desbloquean según el progreso",
+                "Elementos interactivos que cambian según el comportamiento del estudiante",
+                "Easter eggs educativos que premian la exploración profunda"
+            ],
+            "alternateText": {
+                "ejemplo": "Ejemplo: Curso de Diseño UX/UI",
+                "escenario": "Escenario: El Manual del Diseñador del Futuro",
+                "aplicacionPráctica": [
+                    "Aplicación práctica:",
+                    "Guía interactiva que evoluciona según los proyectos completados"
+                ],
+                "actividadEspecifica": [
+                    "Actividad específica:",
+                    [
+                        "Inicio: Manual básico con principios de diseño",
+                        "Al completar el primer prototipo: Se desbloquea sección de Patrones Avanzados",
+                        "Al recibir feedback de usuarios: Se revela capítulo sobre Psicología del Usuario",
+                        "Easter egg: Descubrir 3 errores comunes desbloquea una masterclass exclusiva"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "image": "./img/iman.webp",
+            "title": "Técnicas de Engagement Neuropsicológico",
+            "description": "Concepto: Documentos vivos que evolucionan con el aprendizaje",
+            "subtitle": "Características:",
+            "items": [
+                "Secciones que se desbloquean según el progreso",
+                "Elementos interactivos que cambian según el comportamiento del estudiante",
+                "Easter eggs educativos que premian la exploración profunda"
+            ],
+            "alternateText": {
+                "ejemplo": "Ejemplo: Curso de Ventas B2B",
+                "escenario": "Escenario: 'El Arte de la Negociación'",
+                "aplicacionPráctica": [
+                    "Aplicación práctica:",
+                    "Simulaciones de ventas con puntos de tensión emocional planificados"
+                ],
+                "actividadEspecifica": [
+                    "Actividad específica:",
+                    [
+                        "Estudiante prepara una presentación de ventas",
+                        "Momento de tensión: Cliente virtual interrumpe agresivamente",
+                        "Punto de decisión: Aplicar técnicas de manejo de objeciones",
+                        "Momento aha: Revelación de la psicología detrás de la objeción del cliente"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "image": "./img/multiples.webp",
+            "title": "Storytelling Multidimensional",
+            "description": "Elementos innovadores:",
+            "subtitle": "  ",
+            "items": [
+                "Narrativas paralelas que se entrelazan según el progreso",
+                "Personajes espejo que reflejan los desafíos reales del estudiante",
+                "Técnica de historia invertida donde el estudiante descubre el inicio al final"
+            ],
+            "alternateText": {
+                "ejemplo": "Ejemplo: Curso de Liderazgo Organizacional",
+                "escenario": "Escenario: Transformación Corporativa",
+                "aplicacionPráctica": [
+                    "Aplicación práctica:",
+                    "Historia principal: Líder gestionando cambio organizacional",
+                    "Historias paralelas: Diferentes departamentos afectados"
+                ],
+                "actividadEspecifica": [
+                    "Actividad específica:",
+                    [
+                        "Trama principal: Implementación de transformación digital",
+                        "Historia paralela 1: Resistencia del equipo de ventas",
+                        "Historia paralela 2: Adaptación del equipo técnico",
+                        "Los estudiantes deben alternar entre perspectivas para resolver el caso"
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "image": "./img/motivacion.webp",
+            "title": "Sistema de Motivación Orgánica",
+            "description": "Componentes:",
+            "subtitle": "   ",
+            "items": [
+                "Mapas de progreso que visualizan el crecimiento personal",
+                "Desafíos adaptables que evolucionan con las habilidades",
+                "Retroalimentación narrativa personalizada"
+            ],
+            "alternateText": {
+                "ejemplo": "Ejemplo: Curso de Marketing Digital en Redes Sociales",
+                "escenario": "Escenario: Agencia Social Media Growth",
+                "aplicacionPráctica": [
+                    "Aplicación práctica:",
+                    "Sistema de progreso que simula el crecimiento de una agencia de marketing digital"
+                ],
+                "actividadEspecifica": [
+                    "Actividad específica:",
+                    "1. Nivel Inicial - Freelancer",
+                    [
+                        "Primera misión: Crear una estrategia de contenido para una cafetería local",
+                        "Competencias a desarrollar:",
+                        [
+                            "Planificación de contenido básico",
+                            "Uso de hashtags",
+                            "Horarios de publicación"
+                        ],
+                        "Retroalimentación visual: Un dashboard muestra el crecimiento de seguidores de la cafetería"
+                    ],
+                    "2. Nivel Intermedio - Social Media Manager",
+                    [
+                        "Al dominar las bases, desbloquea un nuevo cliente: Una boutique de moda",
+                        "Nuevas competencias disponibles:",
+                    
+                            [
+                                "Estrategias de engagement, fotografía de producto yAnálisis de métricas básicas"
+                            ],
+                        
+                        "Retroalimentación visual: El dashboard ahora muestra métricas de engagement y conversión"
+                    ]
+                ]
+            }
+        }
+    ]
+}

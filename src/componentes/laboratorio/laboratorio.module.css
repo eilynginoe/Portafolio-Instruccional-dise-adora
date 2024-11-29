@@ -1,0 +1,30 @@
+.introduccion_Lab{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.llamado_accion_Lab img {
+    display: block; /* Asegúrate de que sea un bloque */
+    margin: 20px auto 0; /* Centrado horizontal */
+    width: 25vw;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1023px) {
+    .introduccion_Lab{
+      width: 50vw;
+    }
+
+    .llamado_accion_Lab img{
+        width: 25vw ;
+    }
+
+
+  }

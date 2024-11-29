@@ -1,0 +1,43 @@
+.sobreMi {
+    background-color: #9CCCC3;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.conversacion_inicial_sobre_mi img {
+    width: 25vw;
+}
+
+.boton {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.que_sigue {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 1023px) {
+    .sobreMi {
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .seccion {
+        width: 50vw;
+    }
+
+    p {
+        width: 50vw;
+    }
+
+
+}
