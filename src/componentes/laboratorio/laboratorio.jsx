@@ -27,9 +27,7 @@ function Laboratorio() {
                 <h2 className={style.titulo_carrusel_rediseño}>Innovaciones Futuras en el Diseño Instruccional: Un Laboratorio de Ideas</h2>
                 <div className={style.botones}>
                     <Carrusel/>
-                    <p>Aqui va un carrusel, crea 1 componente que capture la imagen y el texto</p>
-                    <p>Coloca la informacion en un db json para renderizar las tarjetas del carrusel, el carrusel debe tener un boton que permita ampliar la informacion de cada tarjeta</p>
-                </div>
+                 </div>
             </div>
 
             <div className={style.llamado_accion_Lab}>
